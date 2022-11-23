@@ -1,0 +1,20 @@
+Git e github 
+Git é um sistema de versionamento de código 
+github: repositório online para armazenamento de código 
+
+Para commitar: 
+
+$ git add *
+$ git commit -m "nome do commit"
+
+Para sincronizar com github:
+
+$ git pull origin main
+
+$ git push origin main
+
+Outros comandos importantes:
+
+git status
+git add  
+git clone [link] 
