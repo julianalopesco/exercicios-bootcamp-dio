@@ -4,6 +4,7 @@ class Pessoa {
     nome;
     idade;
     anoDeNascimento;
+    
 // constructor mostra o que acontece quando um item é instanciado. Pode receber parâmetros
 
     constructor (nome, idade) {
