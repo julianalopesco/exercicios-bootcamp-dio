@@ -15,3 +15,4 @@ if (achouValor == "sim" ) {
 else {
     console.log("Numero", valorProcurado, "nao encontrado!"); 
 }
+
