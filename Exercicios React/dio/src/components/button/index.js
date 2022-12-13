@@ -1,7 +1,12 @@
-export default function Button(props) {
-    const { title } =  props;
+import React from 'react'
 
+import { ButtonContainer } from './styles'; 
+const Button = ({ title, variant= "primary", onClick}) => {
   return (
-   <button>{title}</button>
+    <ButtonContainer variant={variant} onClick={onClick}>
+      {title}
+    </ButtonContainer>
   )
 }
+
+export { Button }
