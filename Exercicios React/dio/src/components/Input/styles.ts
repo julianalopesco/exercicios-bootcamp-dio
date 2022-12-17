@@ -16,9 +16,14 @@ export const IconContainer = styled.div`
 `
 
 export const InputText = styled.input`
-    color: #FFFFFF;
+    color: #000000;
     border: 0;
     height: 30px; 
     width: 100%;
     margin-bottom: 20px; 
+`
+export const ErrorText = styled.p`
+    color: #FF0000;
+    font-size:12px;
+    margin: 5px 0;
 `
